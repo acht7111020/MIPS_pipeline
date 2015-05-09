@@ -7,19 +7,13 @@ For pipeline stage : IF -> ID -> EX -> DM ->WB.
 stage explain:
 
 IF : Instructionfetch , get PC from i_memory.
-
 ID : InstructionDecode , according to R,I,J type , decode its instruction 
 	information about that type , and also evaluate conditional/
 	unconditional branch .
-	
 EX : ALUexecution , do all arithmetic/bitwise shift/logical operations , and 
 	also computer the address to be accessed in D memory.
-	
 DM : DatamemoryAccess , Load/store access data memory .
-
 WB : WriteBack , executions targeting to $0~$31 , are done during the first half of tke cycle.
-
-
 
 It contain three types MIPS instruction.
   R-type:
