@@ -45,6 +45,7 @@
 				0439F0B41AE1533800587DD6 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		0439F0B41AE1533800587DD6 /* Products */ = {
 			isa = PBXGroup;
@@ -232,6 +233,7 @@
 				0439F0BC1AE1533800587DD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
