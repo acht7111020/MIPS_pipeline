@@ -4,18 +4,28 @@
 Implement a pipeline, functional processor simulator.
 For pipeline stage : IF -> ID -> EX -> DM ->WB.
 
+
+
 stage explain:
 
 IF : Instructionfetch , get PC from i_memory.
+
 ID : InstructionDecode , according to R,I,J type , decode its instruction 
 	information about that type , and also evaluate conditional/
 	unconditional branch .
+	
 EX : ALUexecution , do all arithmetic/bitwise shift/logical operations , and 
 	also computer the address to be accessed in D memory.
+	
 DM : DatamemoryAccess , Load/store access data memory .
+
 WB : WriteBack , executions targeting to $0~$31 , are done during the first half of tke cycle.
 
+
+
+
 It contain three types MIPS instruction.
+
   R-type:
 	"add", "sub", "and", "or", "xor", "nor", "nand", "slt",
 	"sll", "srl", "sra", "jr" .
@@ -31,6 +41,10 @@ It contain three types MIPS instruction.
 	"halt" .
 
 
+
+
 PS : 1. You can use "make" instruction, that can compiler out a .exe file.
+
      2. You can use "make clean" instruction to clean *.exe , *.o , *.out , *.bin , *.rpt.
 	Which can make your file looked clear.
+	
