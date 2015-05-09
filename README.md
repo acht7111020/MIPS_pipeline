@@ -27,17 +27,21 @@ WB : WriteBack , executions targeting to $0~$31 , are done during the first half
 It contain three types MIPS instruction.
 
   R-type:
+  
 	"add", "sub", "and", "or", "xor", "nor", "nand", "slt",
 	"sll", "srl", "sra", "jr" .
 	
   I-type:
+  
 	"addi", "lw", "lh", "lhu", "lb", "lbu", "sw", "sh",
 	"sb", "lui", "andi", "ori", "nori", "slti", "beq", "bne" .
 	
   J-type:
+  
 	"j", "jal" .
 	
   Specialized Instruction: 
+  
 	"halt" .
 
 
