@@ -10,6 +10,18 @@
 		0439F0B71AE1533800587DD6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0439F0B61AE1533800587DD6 /* main.c */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXBuildRule section */
+		0491CB271AFE550E00B66F71 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = text.plist;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# builtin-copyPlist\n";
+		};
+/* End PBXBuildRule section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		0439F0B11AE1533800587DD6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -75,6 +87,7 @@
 				0439F0B11AE1533800587DD6 /* CopyFiles */,
 			);
 			buildRules = (
+				0491CB271AFE550E00B66F71 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
