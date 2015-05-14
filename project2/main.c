@@ -164,7 +164,7 @@ int main(void) {
         PrintSnapshot(fw_ptr );
         
         if(MEMWBout.instr.op == 0x3f && IDEXin.instr.op == 0x3f && EXMEMin.instr.op == 0x3f && MEMWBin.instr.op == 0x3f
-           && ((IFIDin.instr.IR >> 26 ) & 0x3f )== 0x3f) break;
+           && ((IFIDin.instr.IR >> 26 ) & 0x3f  )== 0x3f) break;
         
         Synchronize();
         
